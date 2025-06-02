@@ -3,7 +3,7 @@ Simulate APT GeSn data with perturbed atomic positions and limited collection ef
 
 ## Step 1: Generate a benchmark structure 
 
-### Codes:
+### Code:
    * benchmark-generate.py
 
 ### Instructions:
@@ -14,7 +14,7 @@ Simulate APT GeSn data with perturbed atomic positions and limited collection ef
 
 Suppose you have generated the benchmark structure of GeSn alloy (GeSn-random-before-relax.xyz) and relax the structure using a potential (GeSn-random-relaxed.xyz)
 
-### Codes:
+### Code:
 	* compute-pair-correlation.py
 	* obtain-structure-info.py 
 
@@ -29,7 +29,7 @@ Suppose you have generated the benchmark structure of GeSn alloy (GeSn-random-be
 
 For each atom, determine the corresponding atoms at the Kth shell
 
-### Codes:
+### Code:
     * compute-KNN-info.py
 
 ### Examples:
@@ -42,7 +42,7 @@ For each atom, determine the corresponding atoms at the Kth shell
 
 ## Step 4: Generated simulated APT measurement
 
-### Codes:
+### Code:
     * simulate-APT.py
 	* compute-pair-coirrelation.py (parallelized)
 
@@ -57,7 +57,7 @@ For each atom, determine the corresponding atoms at the Kth shell
 
 ## Step 5: Compute fkr functions
 
-### Codes:
+### Code:
 	* compute-KNN-track.py (parallelized)
     * compute-fkr.py
     * plot-fkr.py
