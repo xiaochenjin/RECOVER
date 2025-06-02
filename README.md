@@ -1,6 +1,6 @@
 # **RECOVER** 
-**RE**treving **C**hemical **O**rdering **V**ia **E**xplicating **R**adial-distribution function.  <br> 
-Package for retreving ***Warren-Cowley SRO parameters*** from perturbed ***atom-probe tomography (APT) data.*** The main funcitons of this package are:
+**RECOVER** stands for**RE**treving **C**hemical **O**rdering **V**ia **E**xplicating **R**adial-distribution function.  <br> 
+This is a package for retreving ***Warren-Cowley SRO parameters*** from perturbed ***atom-probe tomography (APT) data.*** The main funcitons of this package are:
 
 * Compute fkr functions through simulating perturbed APT data through either isotropic or anisotropic perturbation of atomic positions. (_examples/numerical-simulation_)
 * Retreive SRO parameters from experimental APT data using the calculated fkr functions (_examples/experimental-APT-analysis_)
