@@ -1,5 +1,5 @@
 # **RECOVER** 
-**RECOVER** stands for **RE**trieving **C**hemical **O**rdering **V**ia **E**xplicating **R**adial-distribution function.   
+**RECOVER** stands for _**RE**trieving **C**hemical **O**rdering **V**ia **E**xplicating **R**adial-distribution function_.   
 <br> This is a package for retrieving ***Warren-Cowley SRO parameters*** from perturbed ***atom-probe tomography (APT) data.*** 
 
 <br> The main funcitons of this package are:
