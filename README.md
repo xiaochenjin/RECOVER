@@ -6,7 +6,7 @@
 * Compute fkr functions through simulating perturbed APT data through either isotropic or anisotropic perturbation of atomic positions. (_see examples/numerical-simulation_)
 * Retrieve SRO parameters from experimental APT data based on the calculated fkr functions (_see examples/experimental-APT-analysis_)
 
-Theoretical foundation and results of this package is documented at (URL of this paper). 
+The theoretical foundation and results of this package is documented at (URL of this paper). 
   
 ## Requirements:
   * Python >= 3.10
