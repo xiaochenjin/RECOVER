@@ -56,7 +56,7 @@ The purpose of this section is to retrieve SRO parameters from the experimental 
 ### Codes:
 	* calibrate-SRO-parameter.py
 
-## Step 6: Compute SRO parameter after applying screening criteria to RDF, and plot the result
+## Step 6: Compute SRO parameter after data screening, and plot the result
 
 ### Codes:
 	* compute-SRO-after-screening.py
