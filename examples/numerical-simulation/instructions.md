@@ -36,15 +36,15 @@ For each atom, determine the corresponding atoms at the Kth shell
 	python3 compute-KNN-info.py --pair_type=Sn-Sn --K_raw=5 --lattice_constant=5.86
 	python3 compute-KNN-info.py --pair_type=all --K_raw=5 --lattice_constant=5.86 #all atoms
 
-### Instruction:
-	The code outputs a KNN-info-{pair}.txt file with output format of:
+### Instructions:
+	The code outputs a KNN-info-{pair}.txt file with the output format: 
 	atom index, atom indices of 1st shell, atom indices of 2nd shell, ...atom indices of Kth shell
 
 ## Step 4: Generated simulated APT measurement
 
 ### Codes:
     * simulate-APT.py
-	* compute-pair-coirrelation.py (parallized)
+	* compute-pair-coirrelation.py (parallelized)
 
 ### Examples:
     python3 simulate-APT.py --perturb_type=iso --mu=0 --sigma=1.0 --collect_efficiency=1.0 --N_config=50 #isotropic perturbation
@@ -58,7 +58,7 @@ For each atom, determine the corresponding atoms at the Kth shell
 ## Step 5: Compute fkr functions
 
 ### Codes:
-	* compute-KNN-track.py (parallized)
+	* compute-KNN-track.py (parallelized)
     * compute-fkr.py
     * plot-fkr.py
 
