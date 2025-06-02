@@ -23,7 +23,7 @@ The purpose of this section is to retrieve SRO parameters from the experimental 
 	* compute-pair-correlation.py (paralized)
 
 ### Examples:
-	* python3 compute-pair-correlation.py --direction=r --N_bin=10000 --N_thread=2
+	python3 compute-pair-correlation.py --direction=r --N_bin=10000 --N_thread=2
 
 ### Instructions:
 	* compute-pair-correlation.py computes pair correlation of specified pairs
