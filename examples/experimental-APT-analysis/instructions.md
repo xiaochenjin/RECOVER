@@ -1,6 +1,6 @@
 # Experimental APT data analysis
-The purpose of this section is to retrieve SRO parameters from an experimental APT data. 
-Example APT data is measured based on a GeSn sample grown by MBE. 
+The purpose of this section is to retrieve SRO parameters from the experimental APT data. 
+The example APT data is measured based on a GeSn sample grown by MBE. 
 fkr files includes fkr functions of 50 shells which are numerically computed from 1000 configurations.
 
 ## Step 1: Post-process raw APT data
