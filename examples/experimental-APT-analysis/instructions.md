@@ -5,7 +5,7 @@ The purpose of this section is to retrieve SRO parameters from the experimental 
 
 ## Step 1: Post-process raw APT data
 
-### Codes:
+### Code:
 	* write_data.py 
 	* write-data-specific-element.py
 	* select-large-box.py
@@ -19,7 +19,7 @@ The purpose of this section is to retrieve SRO parameters from the experimental 
 
 ## Step 2: Compute RDF of specified pairs
 
-### Codes:
+### Code:
 	* compute-pair-correlation.py (parallelized)
 
 ### Examples:
@@ -30,7 +30,7 @@ The purpose of this section is to retrieve SRO parameters from the experimental 
 
 ## Step 3: Smooth RDF using  the "moving-average" method
 
-### Codes:
+### Code:
 	* convert-rdf-smoothing.py
 
 ### Example:
@@ -41,7 +41,7 @@ The purpose of this section is to retrieve SRO parameters from the experimental 
 
 ## Step 4: Retreive SRO parameters from raw APT data
 
-### Codes:
+### Code:
 	* recover-SRO.py (parallelized)
 
 ### Example:
@@ -53,12 +53,12 @@ The purpose of this section is to retrieve SRO parameters from the experimental 
 
 ## Step 5: Calibrate SRO parameter
 
-### Codes:
+### Code:
 	* calibrate-SRO-parameter.py
 
 ## Step 6: Compute SRO parameter after data screening, and plot the result
 
-### Codes:
+### Code:
 	* compute-SRO-after-screening.py
 	* plot-SRO.py
 
