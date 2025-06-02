@@ -4,7 +4,7 @@
 
 <br> The main funcitons of this package are:
 * Compute fkr functions through simulating perturbed APT data through either isotropic or anisotropic perturbation of atomic positions. (_see examples/numerical-simulation_)
-* Retreive SRO parameters from experimental APT data using the calculated fkr functions (_see examples/experimental-APT-analysis_)
+* Retrieve SRO parameters from experimental APT data using the calculated fkr functions (_see examples/experimental-APT-analysis_)
 
 Theoretical foundation and results of this package is documented at (URL of this paper). 
   
