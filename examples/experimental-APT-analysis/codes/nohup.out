@@ -1,0 +1,84 @@
+z index:  0
+xy index:  0
+['Ge', 'Sn']
+z index:  0
+xy index:  1
+['Ge', 'Sn']
+z index:  0
+xy index:  2
+['Ge', 'Sn']
+z index:  0
+xy index:  3
+['Ge', 'Sn']
+z index:  1
+xy index:  0
+['Ge', 'Sn']
+z index:  1
+xy index:  1
+['Ge', 'Sn']
+z index:  1
+xy index:  2
+['Ge', 'Sn']
+z index:  1
+xy index:  3
+['Ge', 'Sn']
+z index:  2
+xy index:  0
+['Ge', 'Sn']
+z index:  2
+xy index:  1
+['Ge', 'Sn']
+z index:  2
+xy index:  2
+['Ge', 'Sn']
+z index:  2
+xy index:  3
+['Ge', 'Sn']
+z index:  3
+xy index:  0
+['Ge', 'Sn']
+z index:  3
+xy index:  1
+['Ge', 'Sn']
+z index:  3
+xy index:  2
+['Ge', 'Sn']
+z index:  3
+xy index:  3
+['Ge', 'Sn']
+z index:  4
+xy index:  0
+['Ge', 'Sn']
+z index:  4
+xy index:  1
+['Ge', 'Sn']
+z index:  4
+xy index:  2
+['Ge', 'Sn']
+z index:  4
+xy index:  3
+['Ge', 'Sn']
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/xcjin/anaconda3/lib/python3.7/multiprocessing/pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "/home/xcjin/anaconda3/lib/python3.7/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/home/xcjin/anaconda3/lib/python3.7/site-packages/RECOVER-0.1-py3.7-linux-x86_64.egg/RECOVER/APT_RECOVER.py", line 204, in fitting
+    R_list_SRO,GR_list_SRO = grep_GR(data_name)
+  File "/home/xcjin/anaconda3/lib/python3.7/site-packages/RECOVER-0.1-py3.7-linux-x86_64.egg/RECOVER/APT_RECOVER.py", line 53, in grep_GR
+    with open (data_name) as f1:
+FileNotFoundError: [Errno 2] No such file or directory: '../example-APT-data/z-index-0/pair-correlation-all-direction-r-perturb-index-1-smooth-window-200.txt'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "recover-SRO.py", line 106, in <module>
+    fitting = pool.map(fitting_2, index_totlist)	
+  File "/home/xcjin/anaconda3/lib/python3.7/multiprocessing/pool.py", line 268, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/home/xcjin/anaconda3/lib/python3.7/multiprocessing/pool.py", line 657, in get
+    raise self._value
+FileNotFoundError: [Errno 2] No such file or directory: '../example-APT-data/z-index-0/pair-correlation-all-direction-r-perturb-index-1-smooth-window-200.txt'
