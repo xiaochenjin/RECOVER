@@ -20,7 +20,7 @@ The purpose of this section is to retrieve SRO parameters from the experimental 
 ## Step 2: Compute RDF of specified pairs
 
 ### Codes:
-	* compute-pair-correlation.py (paralized)
+	* compute-pair-correlation.py (parallelized)
 
 ### Examples:
 	python3 compute-pair-correlation.py --direction=r --N_bin=10000 --N_thread=2
@@ -42,11 +42,11 @@ The purpose of this section is to retrieve SRO parameters from the experimental 
 ## Step 4: Retreive SRO parameters from raw APT data
 
 ### Codes:
-	* recover-SRO.py
+	* recover-SRO.py (parallelized)
 
 ### Example:
-	python3 recover-SRO.py --p_min=-3 --guess_index=1 --tol=1e-9 --KNN=1 --smooth_window='200' --K_raw=50 --R_lower=0.5 --R_upper=4.0
-	python3 recover-SRO.py --p_min=-3 --guess_index=1 --tol=1e-9 --KNN=3 --smooth_window='200' --K_raw=50 --R_lower=4.0 --R_upper=6.0
+	python3 recover-SRO.py --p_min=-3 --guess_index=1 --tol=1e-9 --KNN=1 --smooth_window='200' --K_raw=50 --R_lower=0.5 --R_upper=4.0 --N_thread=2
+	python3 recover-SRO.py --p_min=-3 --guess_index=1 --tol=1e-9 --KNN=3 --smooth_window='200' --K_raw=50 --R_lower=4.0 --R_upper=6.0 --N_thread=2
 
 ### Instruction:
 	For each data point, this generate the convergence of SRO parameter by increasing number of shells considered. 
